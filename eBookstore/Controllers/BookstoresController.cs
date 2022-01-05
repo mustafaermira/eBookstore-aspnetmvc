@@ -19,8 +19,8 @@ namespace eBookstore.Controllers
 
         public IActionResult Index()
         {
-            var data = _context.Bookstores.ToList();
-            return View(data);
+            var allBookstores = _context.Bookstores.ToList();
+            return View(allBookstores);
         }
     }
 }

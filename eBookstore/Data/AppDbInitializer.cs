@@ -51,14 +51,14 @@ namespace eBookstore.Data
                     {
                         new Writer()
                         {
-                            ProfilePictureURL = "Dukagjini",
-                            Name = "JK",
+                            ProfilePictureURL ="https://th.bing.com/th/id/OIP.KjOpeeFaP-jAqfTjYeg3pAHaLH?pid=ImgDet&rs=1",
+                            Name = "JKKKK",
                             LastName = "Rowling",
                             Bio = "hdjieowheiode"
                         },
                         new Writer()
                         {
-                            ProfilePictureURL = "Dukagjini",
+                            ProfilePictureURL = "https://th.bing.com/th/id/R.ce80a00946d6307e40e0f5f854320737?rik=eEUeoimqlneToQ&pid=ImgRaw&r=0",
                             Name = "Will",
                             LastName = "Rowling",
                             Bio = "hdjieowheiode"
@@ -88,7 +88,7 @@ namespace eBookstore.Data
                             Price=23.33,
                             ImageURL="url",
                             ReleaseDate =DateTime.Now,
-                            WriterId = 1,
+                            WriterId = 5,
                             GenresId = 1
 
                         },
@@ -99,7 +99,7 @@ namespace eBookstore.Data
                             Price=23.33,
                             ImageURL="url",
                             ReleaseDate =DateTime.Now,
-                            WriterId = 1,
+                            WriterId = 4,
                             GenresId = 1
 
                         },
@@ -110,7 +110,7 @@ namespace eBookstore.Data
                             Price=23.33,
                             ImageURL="url",
                             ReleaseDate =DateTime.Now,
-                            WriterId = 1,
+                            WriterId = 6,
                             GenresId = 1
 
                         }
@@ -155,7 +155,7 @@ namespace eBookstore.Data
                     {
                         new Bookstore_Book()
                         {
-                            BookId=5,
+                            BookId=8,
                             BookstoreId=1,
 
                         },
