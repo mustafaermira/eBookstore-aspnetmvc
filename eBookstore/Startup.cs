@@ -1,4 +1,5 @@
 using eBookstore.Data;
+using eBookstore.Data.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,9 @@ namespace eBookstore
             //DbContext configuration
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString
                 ("DefaultConnectionString")));
+
+            //services configuration
+            services.AddScoped<IBookstoresService, BookstoresService>();
 
             services.AddControllersWithViews();
         }
