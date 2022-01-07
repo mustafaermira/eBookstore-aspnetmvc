@@ -51,7 +51,7 @@ namespace eBookstore.Controllers
             return View(bookstoreDetails);
         }
 
-        //Get Request: Bookstores/Create
+        //Get Request: Bookstores/Edit
         public async Task <IActionResult> Edit(int id)
         {
             var bookstoreDetails = await _service.GetByIdAsync(id);
