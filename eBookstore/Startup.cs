@@ -34,6 +34,7 @@ namespace eBookstore
             services.AddScoped<IBookstoresService, BookstoresService>();
             services.AddScoped<IGenresService, GenresService>();
             services.AddScoped<IWritersService, WritersService>();
+            services.AddScoped<IBooksService, BooksService>();
             services.AddControllersWithViews();
         }
 

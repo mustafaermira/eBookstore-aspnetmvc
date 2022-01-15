@@ -1,4 +1,5 @@
-﻿using System;
+﻿using eBookstore.Data.Base;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace eBookstore.Models
 {
-    public class Book
+    public class Book : IEntityBase
     {
         [Key]
         public int Id { get; set; }
