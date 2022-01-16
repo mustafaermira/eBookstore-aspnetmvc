@@ -34,5 +34,12 @@ namespace eBookstore.Data
         public DbSet<Bookstore> Bookstores { get; set; }
         public DbSet<Bookstore_Book> Bookstores_Books { get; set; }
         public DbSet<Genre> Genres { get; set; }
+
+        //Orders related tables
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+
+        
     }
 }
